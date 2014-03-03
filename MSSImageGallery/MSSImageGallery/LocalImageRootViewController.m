@@ -25,12 +25,12 @@
     BGImage.backgroundColor=[UIColor clearColor];
    
     [self.view addSubview:BGImage];
-    self.title=@"Master Software Solutions";
+    self.title=@"Image Gallery";
 //    navController.navigationBar.barTintColor = [UIColor navigationColor];
 //    self.view.backgroundColor=[UIColor blackColor];
    [super viewDidLoad];
    
-   [self setTitle:NSLocalizedString(@"Master Software Solutions", @"Photo Album screen title.")];
+   [self setTitle:NSLocalizedString(@"Image Gallery", @"Photo Album screen title.")];
    
    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera
                                                                               target:self
